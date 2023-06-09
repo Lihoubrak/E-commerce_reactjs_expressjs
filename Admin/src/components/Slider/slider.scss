@@ -1,0 +1,54 @@
+.silder {
+  flex: 1.5;
+  height: 100vh;
+  border: 1px solid gray;
+  background-color: antiquewhite;
+  h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .center {
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      padding: 10px;
+      li {
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        margin: 20px 0;
+        color: goldenrod;
+        p {
+          margin: 0 10px;
+        }
+        .icon {
+          margin-left: 10px;
+          color: blueviolet;
+        }
+      }
+    }
+  }
+  .bottom {
+    padding: 10px;
+    .themes {
+      display: flex;
+      padding: 10px;
+      .color {
+        height: 32px;
+        width: 32px;
+        border-radius: 5px;
+        margin-left: 10px;
+        cursor: pointer;
+        border: 1px solid rebeccapurple;
+        &:nth-child(1) {
+          background-color: black;
+        }
+        &:nth-child(2) {
+          background-color: wheat;
+        }
+      }
+    }
+  }
+}

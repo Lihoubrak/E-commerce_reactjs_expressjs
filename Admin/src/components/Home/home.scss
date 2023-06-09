@@ -1,0 +1,15 @@
+.homepage {
+  display: flex;
+  .mainbord {
+    flex: 10;
+    .warpp {
+      display: flex;
+      padding: 20px;
+      justify-content: space-around;
+    }
+    .anylize {
+      display: flex;
+      padding: 20px;
+    }
+  }
+}
